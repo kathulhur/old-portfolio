@@ -49,7 +49,6 @@ I used raw css in styling the webpage. Also, I use media queries to make the web
 - Author - [Joseph](https://github.com/kathulhur)
 - Website - [Web Portfolio](https://kathulhur.github.io/dev-portfolio/)
 
-<br 
     
 [contributors-shield]: https://img.shields.io/github/contributors/kathulhur/dev-portfolio.svg?style=for-the-badge
 [contributors-url]: https://github.com/kathulhur/dev-portfolio/graphs/contributors
