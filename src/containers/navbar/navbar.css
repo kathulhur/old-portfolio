@@ -1,0 +1,118 @@
+
+.App__navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem 6rem;
+}
+
+
+.App__navbar-logo{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.App__navbar-logo img {
+    width: 200px;
+    height: 53px;
+}
+
+
+.App__navbar-links {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.App__navbar-links a {
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: white;
+    margin: 0 2rem;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 41px;
+}
+
+
+.App__navbar-menu {
+    margin-left: 1rem;
+
+    display:none;
+    position: relative;
+}
+
+
+
+.App__navbar-menu_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    text-align: end;
+    background: var(--color-subbg);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.App__navbar-menu_container a{
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: white;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+}
+
+
+.App__navbar-menu svg {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .App__navbar-links {
+        display: none;
+    }
+
+    .App__navbar-menu {
+        display: flex;
+    }
+
+    .App__navbar-logo img {
+        width: 180px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .App__navbar {
+        padding: 3rem;
+    }
+
+    .App__navbar-logo img {
+        width: 160px;
+    }
+}
+ 
+
+
+
+

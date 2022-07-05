@@ -1,0 +1,118 @@
+.App__header {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.App__header h1 {
+    font-family: var(--font-family);
+    color: white;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+}
+
+
+.App__header-titles {
+    margin: 1rem 0;
+}
+
+
+.App__header-titles p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+
+}
+
+
+.App__header-icons {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+}
+
+
+.App__header-icons img {
+    width: 48px;
+    height: auto;
+}
+
+.App__header-icons #git {
+    margin-right: 2rem;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .App__header h1 {
+        font-size: 48px;
+    }
+
+
+    .App__header p {
+        font-size: 24px;
+    }
+
+    .App__header-titles {
+        margin: 0;
+    }
+
+
+    .App__header-icons #git {
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .section__margin {
+        margin: 0;
+    }
+
+    .App__header h1 {
+        line-height: 64px;
+        text-align: center;
+        margin-bottom: 16px
+    }
+
+    .App__header p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .App__header-icons {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .App__header-icons img {
+        width: 36px;
+    }
+
+}
+
+
+@media only screen and (max-width: 320px) {
+    .section__margin {
+        margin: 0;
+    }
+
+    .App__header h1 {
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        margin-bottom: 16px
+    }
+
+    .App__header-icons {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .App__header-icons img {
+        width: 32px;
+    }
+
+}

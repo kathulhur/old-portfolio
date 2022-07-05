@@ -1,0 +1,96 @@
+.App__projects-container_project {
+    display: flex;
+    flex-direction: column;
+
+    background: var(--color-subbg);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+
+    padding: 2rem;
+    max-width: 512px;
+}
+
+.App__projects-container_project-img img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.App__projects-container_project-content h2{
+    
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+
+.App__projects-container_project-content p{
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.App__projects-container_project-content p:nth-child(2){
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+
+.App__projects-container_project-content p:nth-child(3) {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .App__projects-container_project {
+        padding: 1rem;
+    }
+
+
+    .App__projects-container_project-content h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .App__projects-container_project-content p {
+        font-size: 16px;
+    }
+
+
+    
+    .App__projects-container_project-content p:nth-child(2){
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .App__projects-container_project {
+        padding: 1rem;
+    }
+
+    .App__projects-container_project-content h2 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .App__projects-container_project-content p {
+        font-size: 14px;
+    }
+
+
+    
+    .App__projects-container_project-content p:nth-child(2){
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+}
