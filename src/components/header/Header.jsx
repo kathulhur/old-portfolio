@@ -1,11 +1,11 @@
 import React from 'react';
 
-import './Title.css'
+import './Header.css'
 
-const Title = () => {
+const Title = ({ text }) => {
     return (
         <div className="App__projects-heading">
-            <h1>Projects</h1>
+            <h1>{text}</h1>
             <div></div>
         </div>
     );

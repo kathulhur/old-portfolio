@@ -1,0 +1,72 @@
+.App__skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.App__skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+
+.App__skills-container h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 47px;
+    color: var(--color-complement);
+    margin-bottom: 1rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.App__skills-container ul {
+    padding-left: 1.5rem;
+}
+
+.App__skills-container ul li {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .App__skills-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .App__skills-container h3 {
+        text-align: center;
+    }
+
+    .App__skills-container ul {
+        text-align: center;
+        list-style: none;
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .App__skills-container {
+        gap: 3rem;
+    }
+    
+    .App__skills-container h3 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .App__skills-container ul li{
+        font-size: 16px;
+    }
+}
