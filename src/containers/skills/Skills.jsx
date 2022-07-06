@@ -5,7 +5,7 @@ import { Header } from '../../components'
 
 const Skills = () => {
     return (
-        <div className="App__skills section__margin">
+        <div className="App__skills section__margin" id="skills">
             <Header text="Skills"/>
             <div className="App__skills-container">
                 <div>
@@ -13,7 +13,6 @@ const Skills = () => {
                     <ul>
                         <li>Create webpages using HTML, CSS, and Javascript</li>
                         <li>Use Fetch API to display content</li>
-                        <li>Use appropriate tags for contents</li>
                         <li>Transform Figma design into webpages</li>
                     </ul>
                 </div>
