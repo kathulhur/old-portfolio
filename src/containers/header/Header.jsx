@@ -14,8 +14,8 @@ const Header = () => {
                 <p>Web Developer</p>
             </div>
             <div className="App__header-icons">
-                <a href="<git>"><img src={gitIcon} id="git" alt="git icon"></img></a>
-                <a href="<linkedin>"><img src={linkedinIcon} id="linkedin" alt="git linkedin"></img></a>
+                <a href="https://github.com/kathulhur"><img src={gitIcon} id="git" alt="git icon"></img></a>
+                <a href="https://www.linkedin.com/in/joseph-karl-crisostomo-aa009021b/"><img src={linkedinIcon} id="linkedin" alt="git linkedin"></img></a>
             </div>
         </div>
     )
