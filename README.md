@@ -27,7 +27,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://kathulhur.github.io/dev-portfolio/) -->
+<!-- [![Product Name Screen Shot][product-screenshot]](https://kathulhur.github.io/) -->
 
 ### Built With
 * [React](https://reactjs.org/)
@@ -47,19 +47,19 @@ I used raw css in styling the webpage. Also, I use media queries to make the web
 ## Stay in touch
 
 - Author - [Joseph](https://github.com/kathulhur)
-- Website - [Web Portfolio](https://kathulhur.github.io/dev-portfolio/)
+- Website - [Web Portfolio](https://kathulhur.github.io/)
 
     
-[contributors-shield]: https://img.shields.io/github/contributors/kathulhur/dev-portfolio.svg?style=for-the-badge
-[contributors-url]: https://github.com/kathulhur/dev-portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kathulhur/dev-portfolio.svg?style=for-the-badge
-[forks-url]: https://github.com/kathulhur/dev-portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/kathulhur/dev-portfolio.svg?style=for-the-badge
-[stars-url]: https://github.com/kathulhur/dev-portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kathulhur/dev-portfolio.svg?style=for-the-badge
-[issues-url]: https://github.com/kathulhur/dev-portfolio/issues
-[license-shield]: https://img.shields.io/github/license/kathulhur/dev-portfolio.svg?style=for-the-badge
-[license-url]: https://github.com/kathulhur/dev-portfolio/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/kathulhur/kathulhur.github.io.svg?style=for-the-badge
+[contributors-url]: https://github.com/kathulhur/kathulhur.github.io/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kathulhur/kathulhur.github.io.svg?style=for-the-badge
+[forks-url]: https://github.com/kathulhur/kathulhur.github.io/network/members
+[stars-shield]: https://img.shields.io/github/stars/kathulhur/kathulhur.github.io.svg?style=for-the-badge
+[stars-url]: https://github.com/kathulhur/kathulhur.github.io/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kathulhur/kathulhur.github.io.svg?style=for-the-badge
+[issues-url]: https://github.com/kathulhur/kathulhur.github.io/issues
+[license-shield]: https://img.shields.io/github/license/kathulhur/kathulhur.github.io.svg?style=for-the-badge
+[license-url]: https://github.com/kathulhur/kathulhur.github.io/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joseph-karl-crisostomo-aa009021b
 [product-screenshot]: public/screenshot.png
