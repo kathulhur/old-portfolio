@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.04473acb.css",
-    "main.js": "/static/js/main.a3b358f2.js",
+    "main.js": "/static/js/main.9de18919.js",
     "static/media/inventory-management-system.png": "/static/media/inventory-management-system.884a1eeab7e5d893114a.png",
+    "static/media/url-shortener.png": "/static/media/url-shortener.2eeac19a81eec1549662.png",
     "static/media/logo-white.svg": "/static/media/logo-white.f0103c8f39205f79c9418b74304106b9.svg",
     "static/media/bxl-github.svg": "/static/media/bxl-github.6f801b8ae7ebb658afec5c54a381a4b5.svg",
     "index.html": "/index.html",
     "static/media/bxl-linkedin.svg": "/static/media/bxl-linkedin.39820b0022ef6374863b85491bcb3484.svg",
     "main.04473acb.css.map": "/static/css/main.04473acb.css.map",
-    "main.a3b358f2.js.map": "/static/js/main.a3b358f2.js.map"
+    "main.9de18919.js.map": "/static/js/main.9de18919.js.map"
   },
   "entrypoints": [
     "static/css/main.04473acb.css",
-    "static/js/main.a3b358f2.js"
+    "static/js/main.9de18919.js"
   ]
 }
