@@ -5,7 +5,7 @@ import { Header } from '../../components'
 
 const Skills = () => {
     return (
-        <div className="App__skills section__margin" id="skills">
+        <div className="App__skills" id="skills">
             <Header text="Skills"/>
             <div className="App__skills-container">
                 <div>

@@ -6,7 +6,7 @@ import gitIcon from '../../assets/bxl-github.svg'
 
 const Header = () => {
     return (
-        <div className="App__header section__margin">
+        <div className="App__header" id="home">
             <h1>Joseph Karl Crisostomo</h1>
             <div className="App__header-titles">
                 <p>Computer Science Student</p>

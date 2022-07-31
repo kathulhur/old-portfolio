@@ -4,6 +4,7 @@ import './projects.css'
 import { Header, Project } from '../../components/index'
 import inventoryManagementSystem from '../../assets/inventory-management-system.png'
 import urlShortener from '../../assets/url-shortener.png'
+import portfolioWebsite from '../../assets/portfolio-website.png'
 
 const projectsData = [
     {
@@ -17,13 +18,19 @@ const projectsData = [
         description: "A URL shortener API containing functionality such as shortening URL and retrieving URL information given the code.",
         image: urlShortener,
         link: "https://github.com/kathulhur/url-shortener"
+    },
+    {
+        title: "Portfolio",
+        description: "A responsive portfolio website built using ReactJS and designed using CSS3. This showcases projects, skills, interests, and other personal information",
+        image: portfolioWebsite,
+        link: "https://github.com/kathulhur/kathulhur.github.io"
     }
 ]
 
 
 const Projects = () => {
     return (
-        <div className="App__projects section__padding" id="projects">
+        <div className="App__projects" id="projects">
             <Header text="Projects"/>
             <div className="App__projects-container">
                 {projectsData.map( (item, index) => (

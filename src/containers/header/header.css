@@ -1,6 +1,7 @@
 .App__header {
     display: flex;
     flex-direction: column;
+    padding-top: 10rem;
 }
 
 
@@ -66,9 +67,20 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .App__header {
+        margin-top: 4rem;
+    }
+    
+}
+
 @media only screen and (max-width: 425px) {
     .section__margin {
         margin: 0;
+    }
+
+    .App__header {
+        margin-top: 0;
     }
 
     .App__header h1 {

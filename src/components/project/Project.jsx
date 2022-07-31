@@ -9,9 +9,13 @@ const Project = ({ title, description, image, link }) => {
                 <img src={image} alt="inventory management system"></img>
             </div>
             <div className="App__projects-container_project-content">
-                <h2><a href={link}>{ title }</a></h2>
-                <p>{ description }</p>
-                <p><a href={link}>Visit Repository</a></p>
+                <div>
+                    <h2><a href={link}>{ title }</a></h2>
+                    <p>{ description }</p>
+                </div>
+                <div>
+                    <p><a href={link}>Visit Repository</a></p>
+                </div>
             </div>
         </div>
     );

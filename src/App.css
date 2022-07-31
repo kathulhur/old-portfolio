@@ -9,7 +9,9 @@ body {
     background: var(--color-bg)
 }
 
-
+hr {
+    height: 1px;
+}
 
 .section__padding {
     padding: 4rem 6rem;
@@ -21,14 +23,26 @@ body {
 
 }
 
+.App-content__margin {
+    margin: 0 16rem;
+}
+
+@media only screen and (max-width:1292px) {
+    .App-content__margin {
+        margin: 0 10rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .App-content__margin {
+        margin: 0 6rem;
+    }
+}
+
 
 @media only screen and (max-width: 425px) {
-    .section__margin {
-        margin: 4rem 2rem;
-    }
-
-    .section__padding {
-        padding: 4rem 2rem;
+    .App-content__margin {
+        margin: 0 2rem;
     }
 }
 

@@ -6,10 +6,13 @@ import './App.css'
 const App = () => {
     return (
         <div className="App">
-            <Navbar />
-            <Header />
-            <Projects />
-            <Skills />
+            <div className="App-content__margin">
+                <Navbar />
+                <hr/>
+                <Header />
+                <Projects />
+                <Skills />
+            </div>
             <Footer />
         </div>
     )
